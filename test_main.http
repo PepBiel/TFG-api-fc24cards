@@ -1,0 +1,30 @@
+### Una sola captura
+POST http://127.0.0.1:8000/api/capture
+Accept: application/json
+
+### Iniciar capturas cada 3 segundos
+POST http://127.0.0.1:8000/api/start-capture-loop
+Content-Type: application/json
+
+{
+  "interval": 2
+}
+
+### Detener capturas
+POST http://127.0.0.1:8000/api/stop-capture-loop
+
+### Procesar segmentación de cartas
+POST http://127.0.0.1:8000/api/process-segmentation
+Accept: application/json
+
+### Ejecutar OCR sobre las segmentaciones
+POST http://127.0.0.1:8000/api/process-ocr
+Accept: application/json
+
+### Generar equipo óptimo con algoritmo genético
+POST http://127.0.0.1:8000/api/generate-team
+Content-Type: application/json
+
+{
+  "sbcNumber": 1
+}

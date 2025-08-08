@@ -1,0 +1,193 @@
+{
+  "teams": [
+    {
+      "name": "Equip Car",
+      "formation": "4-4-2",
+      "image": "sbc1.png",
+      "positions": [
+        "ST",
+        "ST",
+        "LM",
+        "CM",
+        "CM",
+        "RM",
+        "LB",
+        "CB",
+        "CB",
+        "RB",
+        "GK"
+      ],
+      "requirements": {
+        "average": {
+          "min": 88
+        },
+        "chemistry": {
+          "min": 10
+        }
+      }
+    },
+    {
+      "name": "Equip Èlit",
+      "formation": "4-3-3",
+      "image": "sbc2.png",
+      "positions": [
+        "ST",
+        "LW",
+        "RW",
+        "CM",
+        "CM",
+        "CM",
+        "LB",
+        "CB",
+        "CB",
+        "RB",
+        "GK"
+      ],
+      "requirements": {
+        "average": {
+          "min": 86
+        },
+        "chemistry": {
+          "min": 20
+        },
+        "nationalities": {
+          "min": [
+            {
+              "name": "France",
+              "number": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Equip Temàtic",
+      "formation": "4-4-2",
+      "image": "sbc3.png",
+      "positions": [
+        "ST",
+        "ST",
+        "LM",
+        "CM",
+        "CM",
+        "RM",
+        "LB",
+        "CB",
+        "CB",
+        "RB",
+        "GK"
+      ],
+      "requirements": {
+        "clubs": {
+          "min": [
+            {
+              "name": "FC Barcelona",
+              "number": 1
+            },
+            {
+              "name": "Manchester Utd",
+              "number": 1
+            }
+          ]
+        },
+        "nationalities": {
+          "min": [
+            {
+              "name": "Spain",
+              "number": 1
+            },
+            {
+              "name": "France",
+              "number": 1
+            }
+          ]
+        },
+        "chemistry": {
+          "min": 25
+        }
+      }
+    },
+    {
+      "name": "Equip Defensiu",
+      "formation": "5-4-1",
+      "image": "sbc6.png",
+      "positions": [
+        "ST",
+        "LM",
+        "CM",
+        "CM",
+        "RM",
+        "LB",
+        "CB",
+        "CB",
+        "CB",
+        "RB",
+        "GK"
+      ],
+      "requirements": {
+        "average": {
+          "min": 85
+        },
+        "chemistry": {
+          "min": 10
+        },
+        "nationalities": {
+          "min": [
+            {
+              "name": "Spain",
+              "number": 1
+            },
+            {
+              "name": "France",
+              "number": 3
+            }
+          ]
+        },
+        "clubs": {
+          "min": [
+            {
+              "name": "FC Barcelona",
+              "number": 1
+            },
+            {
+              "name": "Paris SG",
+              "number": 1
+            }
+          ]
+        },
+        "versions": {
+          "min": [
+            {
+              "name": "Thunderstruck",
+              "number": 1
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Equip ofensiu",
+      "formation": "3-4-3",
+      "image": "sbc5.png",
+      "positions": [
+          "LW", "ST", "RW", "LM", "CM", "CM", "RM", "CB", "CB", "CB", "GK"
+      ],
+      "requirements": {
+        "average": {
+            "min": 78
+        },
+        "chemistry": {
+            "player_min": 1,
+            "min": 18
+        },
+        "leagues": {
+            "exact": 7,
+            "player_max": 3
+        },
+        "clubs": {
+            "player_max": 3
+        }
+      }
+    }
+  ]
+}
